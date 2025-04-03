@@ -1,57 +1,133 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Daniel Busuioc – Badge Portfolio</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-        }
-        .badge {
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin-bottom: 30px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-        }
-        .badge img {
-            width: 150px;
-            float: right;
-        }
-        .badge h2 {
-            margin-top: 0;
-        }
-        .badge p {
-            margin: 5px 0;
-        }
-        .clear {
-            clear: both;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Daniel Busuioc – Digital Badges</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      padding: 2rem;
+      color: #333;
+      max-width: 700px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .badge {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+    .badge img {
+      width: 64px;
+      height: 64px;
+      margin-right: 1rem;
+    }
+    .badge-info h2 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    .badge-info p {
+      margin: 0.3rem 0;
+      font-size: 0.95rem;
+    }
+    .badge-info a {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .badge-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>Daniel Busuioc – Digital Badge Portfolio</h1>
 
-    <div class="badge">
-        <img src="ai-badge.png" alt="AI Badge" />
-        <h2>Artificial Intelligence Beginners Guide</h2>
-        <p><strong>Issuer:</strong> SimpliLearn</p>
-        <p><strong>Issued on:</strong> April 2, 2025</p>
-        <p><strong>Verification:</strong> 
-            <a href="https://simpli-web.app.link/e/3W8FD3C3gSb" target="_blank">
-                Click to verify certificate
-            </a>
-        </p>
-        <p><strong>Description:</strong> Completed the beginner’s guide to artificial intelligence course from SimpliLearn.</p>
-        <div class="clear"></div>
-    </div>
+<h1>Daniel Busuioc – Digital Badges</h1>
+
+<!-- Badge 1 -->
+<div class="badge">
+  <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="AI Badge"/>
+  <div class="badge-info">
+    <h2>Artificial Intelligence Beginners Guide</h2>
+    <p>Issued by SimpliLearn</p>
+    <p>April 2, 2025</p>
+    <a href="https://simpli-web.app.link/e/3W8FD3C3gSb" target="_blank">Verification</a>
+  </div>
+</div>
+
+<!-- Badge 2 -->
+<div class="badge">
+  <img src="https://img.icons8.com/color/96/lock-2.png" alt="Cybersecurity Badge"/>
+  <div class="badge-info">
+    <h2>Introduction to Cybersecurity</h2>
+    <p>Issued by Cisco</p>
+    <p>April 2, 2025</p>
+    <a href="#">Verification</a>
+  </div>
+</div>
+
+<!-- Badge 3 -->
+<div class="badge">
+  <img src="https://img.icons8.com/color/96/python.png" alt="Python Badge"/>
+  <div class="badge-info">
+    <h2>Machine Learning with Python</h2>
+    <p>Issued by SimpliLearn</p>
+    <p>April 2, 2025</p>
+    <a href="#">Verification</a>
+  </div>
+</div>
+
+<!-- Badge 4 -->
+<div class="badge">
+  <img src="https://img.icons8.com/color/96/aws.png" alt="AWS Badge"/>
+  <div class="badge-info">
+    <h2>Generative AI for Executives</h2>
+    <p>Issued by AWS Skill Builder</p>
+    <p>April 3, 2025</p>
+    <a href="#">Verification</a>
+  </div>
+</div>
+
+<!-- Badge 5 -->
+<div class="badge">
+  <img src="https://img.icons8.com/color/96/image.png" alt="Image ML Badge"/>
+  <div class="badge-info">
+    <h2>Image Recognition using Machine Learning</h2>
+    <p>Issued by SimpliLearn</p>
+    <p>April 3, 2025</p>
+    <a href="#">Verification</a>
+  </div>
+</div>
+
+<!-- Badge 6 -->
+<div class="badge">
+  <img src="https://img.icons8.com/color/96/cloud.png" alt="Cloud Badge"/>
+  <div class="badge-info">
+    <h2>Describe Cloud Computing</h2>
+    <p>Issued by Microsoft Learn</p>
+    <p>April 3, 2025</p>
+    <a href="#">Verification</a>
+  </div>
+</div>
+
+<!-- Badge 7 -->
+<div class="badge">
+  <img src="https://img.icons8.com/color/96/firewall.png" alt="Security Badge"/>
+  <div class="badge-info">
+    <h2>Security for Virtual Networks</h2>
+    <p>Issued by Microsoft Learn</p>
+    <p>April 3, 2025</p>
+    <a href="#">Verification</a>
+  </div>
+</div>
 
 </body>
 </html>
